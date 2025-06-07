@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "tfstate" {
-  bucket = "myproject-terraform-state-bucket"
+  bucket = "fmshr-tfe-statefile-bucket"
   force_destroy = true
 
   versioning {
