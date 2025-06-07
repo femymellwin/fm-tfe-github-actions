@@ -1,4 +1,4 @@
-name: Terraform VM Deployment
+name: Backend-Deployment
 
 on:
   workflow_dispatch:
